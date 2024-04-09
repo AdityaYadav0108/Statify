@@ -9,8 +9,8 @@ const App = () => {
 	const [topTracks, setTopTracks] = useState([]);
 
 	const handleLogin = () => {
-		const CLIENT_ID = "9a85e8413d374ba799e0dd602193217f";
-		const REDIRECT_URI = "https://statify-zl4n.onrender.com";
+		const CLIENT_ID = "f7f56057ec5245548197d3bd37e7ce63";
+		const REDIRECT_URI = "https://statify-csr7.onrender.com/";
 		const SCOPES = ["user-top-read", "user-read-recently-played"];
 		const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${REDIRECT_URI}&scope=${SCOPES.join(
 			"%20"
